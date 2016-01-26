@@ -5,6 +5,6 @@
 module.exports={
     entry: "./public/js/components/markup/home.js",
     output: {
-        filename: "./build.js"
+        filename: "./packaged/build.js"
     }
 }
