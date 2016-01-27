@@ -6,4 +6,6 @@
 module.exports = function(message){
     debugger;
     alert('раньше сдеся была ахинея');
+    console.log('HHHHHH');
+    console.log('HHHHHH');
 };
