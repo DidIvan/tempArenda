@@ -37,8 +37,9 @@ module.exports = {
     devtool: NODE_ENV == "development" ? "cheap-module-eval-source-map" : "source-map",
 
     plugins:[
-        new webpack.NodeEnvironmentPlugin('NODE_ENV')
+        new webpack.NoErrorsPlugin()
     ],
+
     module: {
         loaders: [
             {test: /\.js$/, loader: 'jsx-loader'}
