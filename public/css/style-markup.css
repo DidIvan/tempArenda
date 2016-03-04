@@ -53,19 +53,38 @@ nav {
 
 }
 
-.nav .logo-center {
-    width: 20%;
-    height: 100%;
-
-}
-
 .nav .logo-center a {
-    margin: 0 0 0 70px;
+    margin: 10px 0 0 0;
 }
 
 /*==========start form==============*/
 
-.nav form.search {
+.header-search-wrapper {
+    max-width: 300px;
+    width: 50%;
+    margin: 0 auto;
+    /*width: calc(100% - 45%);*/
+    height: 40px;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+}
+input.header-search-input {
+    display: block;
+    padding: 8px 8px 8px 72px;
+    width: 100%;
+    background: rgba(255,255,255,0.3);
+    height: 24px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border: none;
+    font-size: 16px;
+    appearance: textfield;
+    font-weight: 400;
+    outline: none;
+    border-radius: 3px;
+}
+/*.nav form.search {
     float: left;
     width: 50%;
     height: 85%;
@@ -79,7 +98,7 @@ nav {
 
 .nav form.search input {
     width: 85% !important;
-    /*border-bottom: none !important;*/
+    /!*border-bottom: none !important;*!/
     box-sizing: border-box;
     padding-left: 60px !important;
     color: #000;
@@ -90,10 +109,10 @@ nav {
     box-shadow: 0 1px 0 0 rgb(41, 128, 185);
 }
 
-/* label focus color ���� ������ ������*/
+/!* label focus color ���� ������ ������*!/
 .nav .input-field input[type=text]:focus + label {
     color: rgb(41, 128, 185);
-}
+}*/
 
 /*=============end form==================*/
 
@@ -133,13 +152,9 @@ nav {
 
 /*=============end user-menu==================*/
 
-/*==========start entrance-menu==============*/
-.entrance-menu {
-    width: 180px;
-    height: 100%;
-}
+/*==========button entrance=============*/
 
-.entrance-menu .btn {
+nav .nav-wrapper .btn {
     position: relative;
     width: 180px;
     height: 64px;
@@ -148,7 +163,11 @@ nav {
     font-weight: lighter;
     padding: 13px 5px;
 }
-
+nav .nav-wrapper .button-collapse i {
+   display: block;
+    font-size: 2rem;
+    background-color: rgb(41, 128, 185);
+}
 /*=============end entrance-menu==================*/
 
 /*-------------------*/
