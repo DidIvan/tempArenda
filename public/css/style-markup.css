@@ -91,25 +91,24 @@ nav form{
     display: inline-block;
 }
 nav form.search {
-    width: calc(100% - 45%);
+    width: calc(100% - 57%);
     height: 100%;
     margin-left: 200px;
-    background: rgba(255,255,255,0.3) !important;
-    border-radius: 3px;
 }
 
-/*nav .input-field {
-    margin-top: 0;
-}*/
 nav .input-field label.active i {
     color:rgb(41, 128, 185);
 }
 nav .search input {
-    width: 85% !important;
+    width: 100%;
     /*border-bottom: none !important;*/
     box-sizing: border-box;
-    padding-left: 60px !important;
+    /*padding-left: 60px !important;*/
     color: #000;
+    background: rgba(243, 243, 243, 1);
+    border-radius: 3px;
+    padding: 8px 8px 8px 60px;
+
 }
 
 nav .input-field input[type=text]:focus {
