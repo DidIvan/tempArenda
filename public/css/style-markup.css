@@ -52,26 +52,25 @@ nav {
     height: 64px;
 }
 
-nav .brand-logo {
+nav .main-logo img {
     margin: 10px 20px 0 20px;
     display: inline-block;
 }
 
-#mobile-demo .brand-logo {
-    display: block;
-    position: relative;
-}
 
 nav #mobile-demo .input-field {
     width: 90%;
     height: 45px;
-    margin: 0 auto;
+    margin: 70px auto 0 auto;
     box-sizing: border-box;
     background: rgba(243, 243, 243, 1);
     border-radius: 3px;
 
 }
-
+#mobile-demo .brand-logo img {
+    margin: 10px auto;
+    display: inline-block;
+}
 nav #mobile-demo .input-field input {
     width: 176px;
     height: 45px;
@@ -86,7 +85,6 @@ nav #mobile-demo .input-field label {
     left:5px;
 }
 nav #mobile-demo .input-field label.active i {
-    color: rgb(41, 128, 185);
     line-height: 28px;
     height: 28px;
 }
@@ -102,7 +100,7 @@ nav form.search {
 }
 
 nav .input-field label.active i {
-    color: rgb(41, 128, 185);
+    color: rgb(153, 153, 153);
 }
 
 nav form.search input {
@@ -178,8 +176,9 @@ nav .nav-wrapper .btn {
 
 nav .nav-wrapper .button-collapse i {
     display: block;
-    font-size: 2rem;
-    color: rgb(41, 128, 185);
+    font-size: 3rem;
+    color: rgb(153, 153, 153);
+    padding-left: 10px;
 }
 
 /*=============end entrance-menu==================*/
